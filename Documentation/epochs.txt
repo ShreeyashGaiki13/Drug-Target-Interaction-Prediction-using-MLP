@@ -1,0 +1,340 @@
+Training the model...
+Epoch 1/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 107ms/step - loss: 48.9564 - mse: 11.0777 
+Epoch 1: val_loss improved from inf to 30.03911, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 37s 113ms/step - loss: 48.9330 - mse: 11.0670 - val_loss: 30.0391 - val_mse: 1.4412 - learning_rate: 5.0000e-04
+Epoch 2/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 102ms/step - loss: 28.3542 - mse: 2.1675 
+Epoch 2: val_loss improved from 30.03911 to 20.06221, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 32s 106ms/step - loss: 28.3454 - mse: 2.1665 - val_loss: 20.0622 - val_mse: 0.7184 - learning_rate: 5.0000e-04
+Epoch 3/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 102ms/step - loss: 18.8602 - mse: 1.4345 
+Epoch 3: val_loss improved from 20.06221 to 13.11661, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 32s 106ms/step - loss: 18.8542 - mse: 1.4344 - val_loss: 13.1166 - val_mse: 0.7776 - learning_rate: 5.0000e-04
+Epoch 4/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 101ms/step - loss: 12.2877 - mse: 1.2553 
+Epoch 4: val_loss improved from 13.11661 to 8.28450, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 32s 106ms/step - loss: 12.2837 - mse: 1.2552 - val_loss: 8.2845 - val_mse: 0.6133 - learning_rate: 5.0000e-04
+Epoch 5/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 102ms/step - loss: 7.9509 - mse: 1.1062 
+Epoch 5: val_loss improved from 8.28450 to 5.33136, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 32s 106ms/step - loss: 7.9483 - mse: 1.1061 - val_loss: 5.3314 - val_mse: 0.5994 - learning_rate: 5.0000e-04
+Epoch 6/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 101ms/step - loss: 5.2216 - mse: 1.0003 
+Epoch 6: val_loss improved from 5.33136 to 3.60304, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 32s 106ms/step - loss: 5.2201 - mse: 1.0003 - val_loss: 3.6030 - val_mse: 0.6541 - learning_rate: 5.0000e-04
+Epoch 7/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 107ms/step - loss: 3.6081 - mse: 0.9582 
+Epoch 7: val_loss improved from 3.60304 to 2.55883, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 34s 112ms/step - loss: 3.6072 - mse: 0.9581 - val_loss: 2.5588 - val_mse: 0.6439 - learning_rate: 5.0000e-04
+Epoch 8/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 108ms/step - loss: 2.6615 - mse: 0.9287 
+Epoch 8: val_loss improved from 2.55883 to 1.83297, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 34s 113ms/step - loss: 2.6609 - mse: 0.9286 - val_loss: 1.8330 - val_mse: 0.5783 - learning_rate: 5.0000e-04
+Epoch 9/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 107ms/step - loss: 2.0149 - mse: 0.8650 
+Epoch 9: val_loss improved from 1.83297 to 1.55365, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 34s 112ms/step - loss: 2.0146 - mse: 0.8650 - val_loss: 1.5536 - val_mse: 0.6556 - learning_rate: 5.0000e-04
+Epoch 10/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 107ms/step - loss: 1.7022 - mse: 0.8513 
+Epoch 10: val_loss improved from 1.55365 to 1.29199, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 34s 111ms/step - loss: 1.7020 - mse: 0.8513 - val_loss: 1.2920 - val_mse: 0.5674 - learning_rate: 2.5000e-04
+Epoch 11/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 107ms/step - loss: 1.4812 - mse: 0.7871 
+Epoch 11: val_loss improved from 1.29199 to 1.20001, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 33s 111ms/step - loss: 1.4811 - mse: 0.7871 - val_loss: 1.2000 - val_mse: 0.5792 - learning_rate: 2.5000e-04
+Epoch 12/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 107ms/step - loss: 1.3923 - mse: 0.7930 
+Epoch 12: val_loss improved from 1.20001 to 1.13762, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 34s 111ms/step - loss: 1.3922 - mse: 0.7930 - val_loss: 1.1376 - val_mse: 0.5985 - learning_rate: 2.5000e-04
+Epoch 13/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 107ms/step - loss: 1.2828 - mse: 0.7617 
+Epoch 13: val_loss improved from 1.13762 to 1.01641, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 34s 111ms/step - loss: 1.2827 - mse: 0.7617 - val_loss: 1.0164 - val_mse: 0.5468 - learning_rate: 2.5000e-04
+Epoch 14/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 108ms/step - loss: 1.2219 - mse: 0.7614 
+Epoch 14: val_loss improved from 1.01641 to 1.01310, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 34s 112ms/step - loss: 1.2218 - mse: 0.7614 - val_loss: 1.0131 - val_mse: 0.5819 - learning_rate: 2.5000e-04
+Epoch 15/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 108ms/step - loss: 1.1335 - mse: 0.7162 
+Epoch 15: val_loss improved from 1.01310 to 0.91923, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 34s 112ms/step - loss: 1.1334 - mse: 0.7163 - val_loss: 0.9192 - val_mse: 0.5450 - learning_rate: 2.5000e-04
+Epoch 16/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 107ms/step - loss: 1.0588 - mse: 0.6965 
+Epoch 16: val_loss improved from 0.91923 to 0.87942, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 34s 112ms/step - loss: 1.0588 - mse: 0.6965 - val_loss: 0.8794 - val_mse: 0.5383 - learning_rate: 2.5000e-04
+Epoch 17/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 106ms/step - loss: 1.0153 - mse: 0.6801 
+Epoch 17: val_loss did not improve from 0.87942
+301/301 ━━━━━━━━━━━━━━━━━━━━ 33s 109ms/step - loss: 1.0153 - mse: 0.6801 - val_loss: 1.0668 - val_mse: 0.7323 - learning_rate: 2.5000e-04
+Epoch 18/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 106ms/step - loss: 1.0188 - mse: 0.6919 
+Epoch 18: val_loss improved from 0.87942 to 0.80067, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 33s 110ms/step - loss: 1.0188 - mse: 0.6919 - val_loss: 0.8007 - val_mse: 0.4998 - learning_rate: 2.5000e-04
+Epoch 19/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 106ms/step - loss: 0.9563 - mse: 0.6700 
+Epoch 19: val_loss did not improve from 0.80067
+301/301 ━━━━━━━━━━━━━━━━━━━━ 33s 109ms/step - loss: 0.9563 - mse: 0.6700 - val_loss: 0.8127 - val_mse: 0.5392 - learning_rate: 2.5000e-04
+Epoch 20/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 105ms/step - loss: 0.8970 - mse: 0.6375 
+Epoch 20: val_loss improved from 0.80067 to 0.71637, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 33s 110ms/step - loss: 0.8969 - mse: 0.6375 - val_loss: 0.7164 - val_mse: 0.4955 - learning_rate: 1.2500e-04
+Epoch 21/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 106ms/step - loss: 0.8404 - mse: 0.6262 
+Epoch 21: val_loss improved from 0.71637 to 0.67646, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 33s 110ms/step - loss: 0.8404 - mse: 0.6262 - val_loss: 0.6765 - val_mse: 0.4783 - learning_rate: 1.2500e-04
+Epoch 22/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 109ms/step - loss: 0.7855 - mse: 0.5895 
+Epoch 22: val_loss improved from 0.67646 to 0.66145, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 34s 114ms/step - loss: 0.7856 - mse: 0.5896 - val_loss: 0.6614 - val_mse: 0.4750 - learning_rate: 1.2500e-04
+Epoch 23/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 108ms/step - loss: 0.7650 - mse: 0.5824 
+Epoch 23: val_loss improved from 0.66145 to 0.63022, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 34s 113ms/step - loss: 0.7651 - mse: 0.5824 - val_loss: 0.6302 - val_mse: 0.4590 - learning_rate: 1.2500e-04
+Epoch 24/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 108ms/step - loss: 0.7509 - mse: 0.5815 
+Epoch 24: val_loss did not improve from 0.63022
+301/301 ━━━━━━━━━━━━━━━━━━━━ 34s 112ms/step - loss: 0.7509 - mse: 0.5816 - val_loss: 0.6314 - val_mse: 0.4653 - learning_rate: 1.2500e-04
+Epoch 25/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 121ms/step - loss: 0.7651 - mse: 0.5980 
+Epoch 25: val_loss did not improve from 0.63022
+301/301 ━━━━━━━━━━━━━━━━━━━━ 38s 125ms/step - loss: 0.7651 - mse: 0.5980 - val_loss: 0.6510 - val_mse: 0.4852 - learning_rate: 1.2500e-04
+Epoch 26/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 123ms/step - loss: 0.7561 - mse: 0.5925 
+Epoch 26: val_loss improved from 0.63022 to 0.60969, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 39s 128ms/step - loss: 0.7561 - mse: 0.5924 - val_loss: 0.6097 - val_mse: 0.4513 - learning_rate: 1.2500e-04
+Epoch 27/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 124ms/step - loss: 0.7448 - mse: 0.5873 
+Epoch 27: val_loss did not improve from 0.60969
+301/301 ━━━━━━━━━━━━━━━━━━━━ 39s 128ms/step - loss: 0.7448 - mse: 0.5872 - val_loss: 0.6136 - val_mse: 0.4601 - learning_rate: 1.2500e-04
+Epoch 28/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 126ms/step - loss: 0.7120 - mse: 0.5603 
+Epoch 28: val_loss improved from 0.60969 to 0.58202, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 40s 131ms/step - loss: 0.7120 - mse: 0.5603 - val_loss: 0.5820 - val_mse: 0.4338 - learning_rate: 1.2500e-04
+Epoch 29/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 124ms/step - loss: 0.7065 - mse: 0.5591 
+Epoch 29: val_loss did not improve from 0.58202
+301/301 ━━━━━━━━━━━━━━━━━━━━ 39s 128ms/step - loss: 0.7065 - mse: 0.5591 - val_loss: 0.6064 - val_mse: 0.4640 - learning_rate: 1.2500e-04
+Epoch 30/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 126ms/step - loss: 0.6788 - mse: 0.5405 
+Epoch 30: val_loss improved from 0.58202 to 0.54294, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 40s 131ms/step - loss: 0.6788 - mse: 0.5405 - val_loss: 0.5429 - val_mse: 0.4172 - learning_rate: 6.2500e-05
+Epoch 31/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 125ms/step - loss: 0.6462 - mse: 0.5224 
+Epoch 31: val_loss improved from 0.54294 to 0.54024, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 39s 130ms/step - loss: 0.6462 - mse: 0.5224 - val_loss: 0.5402 - val_mse: 0.4220 - learning_rate: 6.2500e-05
+Epoch 32/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 124ms/step - loss: 0.6392 - mse: 0.5217 
+Epoch 32: val_loss improved from 0.54024 to 0.52915, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 39s 130ms/step - loss: 0.6392 - mse: 0.5217 - val_loss: 0.5292 - val_mse: 0.4141 - learning_rate: 6.2500e-05
+Epoch 33/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 126ms/step - loss: 0.6466 - mse: 0.5324 
+Epoch 33: val_loss did not improve from 0.52915
+301/301 ━━━━━━━━━━━━━━━━━━━━ 39s 130ms/step - loss: 0.6465 - mse: 0.5324 - val_loss: 0.5318 - val_mse: 0.4201 - learning_rate: 6.2500e-05
+Epoch 34/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 122ms/step - loss: 0.6193 - mse: 0.5090 
+Epoch 34: val_loss improved from 0.52915 to 0.51716, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 38s 127ms/step - loss: 0.6193 - mse: 0.5090 - val_loss: 0.5172 - val_mse: 0.4110 - learning_rate: 6.2500e-05
+Epoch 35/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 118ms/step - loss: 0.6165 - mse: 0.5112 
+Epoch 35: val_loss improved from 0.51716 to 0.51258, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 37s 124ms/step - loss: 0.6165 - mse: 0.5112 - val_loss: 0.5126 - val_mse: 0.4095 - learning_rate: 6.2500e-05
+Epoch 36/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 123ms/step - loss: 0.5964 - mse: 0.4940 
+Epoch 36: val_loss did not improve from 0.51258
+301/301 ━━━━━━━━━━━━━━━━━━━━ 38s 128ms/step - loss: 0.5964 - mse: 0.4940 - val_loss: 0.5235 - val_mse: 0.4231 - learning_rate: 6.2500e-05
+Epoch 37/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 123ms/step - loss: 0.6152 - mse: 0.5154 
+Epoch 37: val_loss improved from 0.51258 to 0.49283, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 39s 129ms/step - loss: 0.6152 - mse: 0.5154 - val_loss: 0.4928 - val_mse: 0.3951 - learning_rate: 6.2500e-05
+Epoch 38/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 123ms/step - loss: 0.5851 - mse: 0.4878 
+Epoch 38: val_loss did not improve from 0.49283
+301/301 ━━━━━━━━━━━━━━━━━━━━ 38s 127ms/step - loss: 0.5852 - mse: 0.4878 - val_loss: 0.5008 - val_mse: 0.4046 - learning_rate: 6.2500e-05
+Epoch 39/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 126ms/step - loss: 0.5981 - mse: 0.5022 
+Epoch 39: val_loss did not improve from 0.49283
+301/301 ━━━━━━━━━━━━━━━━━━━━ 39s 130ms/step - loss: 0.5981 - mse: 0.5022 - val_loss: 0.5079 - val_mse: 0.4124 - learning_rate: 6.2500e-05
+Epoch 40/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 115ms/step - loss: 0.5783 - mse: 0.4842 
+Epoch 40: val_loss improved from 0.49283 to 0.47437, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 36s 120ms/step - loss: 0.5783 - mse: 0.4842 - val_loss: 0.4744 - val_mse: 0.3840 - learning_rate: 3.1250e-05
+Epoch 41/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 123ms/step - loss: 0.5670 - mse: 0.4777 
+Epoch 41: val_loss did not improve from 0.47437
+301/301 ━━━━━━━━━━━━━━━━━━━━ 38s 128ms/step - loss: 0.5669 - mse: 0.4776 - val_loss: 0.4811 - val_mse: 0.3951 - learning_rate: 3.1250e-05
+Epoch 42/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 124ms/step - loss: 0.5456 - mse: 0.4605 
+Epoch 42: val_loss improved from 0.47437 to 0.47051, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 39s 130ms/step - loss: 0.5456 - mse: 0.4605 - val_loss: 0.4705 - val_mse: 0.3879 - learning_rate: 3.1250e-05
+Epoch 43/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 125ms/step - loss: 0.5441 - mse: 0.4621 
+Epoch 43: val_loss improved from 0.47051 to 0.46381, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 39s 130ms/step - loss: 0.5442 - mse: 0.4621 - val_loss: 0.4638 - val_mse: 0.3833 - learning_rate: 3.1250e-05
+Epoch 44/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 128ms/step - loss: 0.5405 - mse: 0.4604 
+Epoch 44: val_loss did not improve from 0.46381
+301/301 ━━━━━━━━━━━━━━━━━━━━ 40s 132ms/step - loss: 0.5405 - mse: 0.4604 - val_loss: 0.4664 - val_mse: 0.3880 - learning_rate: 3.1250e-05
+Epoch 45/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 128ms/step - loss: 0.5295 - mse: 0.4515 
+Epoch 45: val_loss improved from 0.46381 to 0.45336, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 40s 134ms/step - loss: 0.5296 - mse: 0.4515 - val_loss: 0.4534 - val_mse: 0.3767 - learning_rate: 3.1250e-05
+Epoch 46/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 123ms/step - loss: 0.5371 - mse: 0.4607 
+Epoch 46: val_loss did not improve from 0.45336
+301/301 ━━━━━━━━━━━━━━━━━━━━ 38s 127ms/step - loss: 0.5371 - mse: 0.4607 - val_loss: 0.4654 - val_mse: 0.3896 - learning_rate: 3.1250e-05
+Epoch 47/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 125ms/step - loss: 0.5216 - mse: 0.4461 
+Epoch 47: val_loss improved from 0.45336 to 0.44828, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 39s 130ms/step - loss: 0.5216 - mse: 0.4462 - val_loss: 0.4483 - val_mse: 0.3735 - learning_rate: 3.1250e-05
+Epoch 48/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 123ms/step - loss: 0.5354 - mse: 0.4609 
+Epoch 48: val_loss did not improve from 0.44828
+301/301 ━━━━━━━━━━━━━━━━━━━━ 38s 127ms/step - loss: 0.5354 - mse: 0.4609 - val_loss: 0.4665 - val_mse: 0.3926 - learning_rate: 3.1250e-05
+Epoch 49/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 121ms/step - loss: 0.5150 - mse: 0.4414 
+Epoch 49: val_loss improved from 0.44828 to 0.44348, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 38s 126ms/step - loss: 0.5150 - mse: 0.4414 - val_loss: 0.4435 - val_mse: 0.3704 - learning_rate: 3.1250e-05
+Epoch 50/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 133ms/step - loss: 0.4974 - mse: 0.4246 
+Epoch 50: val_loss improved from 0.44348 to 0.43376, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 42s 140ms/step - loss: 0.4974 - mse: 0.4246 - val_loss: 0.4338 - val_mse: 0.3620 - learning_rate: 1.5625e-05
+Epoch 51/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 131ms/step - loss: 0.4844 - mse: 0.4130 
+Epoch 51: val_loss improved from 0.43376 to 0.43321, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 41s 137ms/step - loss: 0.4845 - mse: 0.4130 - val_loss: 0.4332 - val_mse: 0.3627 - learning_rate: 1.5625e-05
+Epoch 52/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 119ms/step - loss: 0.5020 - mse: 0.4317 
+Epoch 52: val_loss improved from 0.43321 to 0.43002, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 38s 125ms/step - loss: 0.5020 - mse: 0.4317 - val_loss: 0.4300 - val_mse: 0.3604 - learning_rate: 1.5625e-05
+Epoch 53/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 137ms/step - loss: 0.4911 - mse: 0.4216 
+Epoch 53: val_loss did not improve from 0.43002
+301/301 ━━━━━━━━━━━━━━━━━━━━ 43s 142ms/step - loss: 0.4911 - mse: 0.4217 - val_loss: 0.4482 - val_mse: 0.3794 - learning_rate: 1.5625e-05
+Epoch 54/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 149ms/step - loss: 0.4957 - mse: 0.4270 
+Epoch 54: val_loss improved from 0.43002 to 0.42993, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 47s 157ms/step - loss: 0.4956 - mse: 0.4270 - val_loss: 0.4299 - val_mse: 0.3619 - learning_rate: 1.5625e-05
+Epoch 55/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 135ms/step - loss: 0.4872 - mse: 0.4194 
+Epoch 55: val_loss improved from 0.42993 to 0.42430, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 43s 142ms/step - loss: 0.4872 - mse: 0.4193 - val_loss: 0.4243 - val_mse: 0.3569 - learning_rate: 1.5625e-05
+Epoch 56/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 139ms/step - loss: 0.4791 - mse: 0.4118 
+Epoch 56: val_loss improved from 0.42430 to 0.42179, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 44s 145ms/step - loss: 0.4791 - mse: 0.4118 - val_loss: 0.4218 - val_mse: 0.3550 - learning_rate: 1.5625e-05
+Epoch 57/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 138ms/step - loss: 0.4792 - mse: 0.4125 
+Epoch 57: val_loss improved from 0.42179 to 0.41518, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 44s 145ms/step - loss: 0.4792 - mse: 0.4125 - val_loss: 0.4152 - val_mse: 0.3490 - learning_rate: 1.5625e-05
+Epoch 58/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 138ms/step - loss: 0.4828 - mse: 0.4167 
+Epoch 58: val_loss did not improve from 0.41518
+301/301 ━━━━━━━━━━━━━━━━━━━━ 43s 143ms/step - loss: 0.4828 - mse: 0.4167 - val_loss: 0.4168 - val_mse: 0.3511 - learning_rate: 1.5625e-05
+Epoch 59/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 137ms/step - loss: 0.4619 - mse: 0.3964 
+Epoch 59: val_loss improved from 0.41518 to 0.41155, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 43s 143ms/step - loss: 0.4620 - mse: 0.3964 - val_loss: 0.4115 - val_mse: 0.3462 - learning_rate: 1.5625e-05
+Epoch 60/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 137ms/step - loss: 0.4665 - mse: 0.4013 
+Epoch 60: val_loss improved from 0.41155 to 0.41135, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 43s 143ms/step - loss: 0.4665 - mse: 0.4013 - val_loss: 0.4113 - val_mse: 0.3465 - learning_rate: 7.8125e-06
+Epoch 61/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 139ms/step - loss: 0.4610 - mse: 0.3962 
+Epoch 61: val_loss improved from 0.41135 to 0.40512, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 44s 145ms/step - loss: 0.4610 - mse: 0.3962 - val_loss: 0.4051 - val_mse: 0.3407 - learning_rate: 7.8125e-06
+Epoch 62/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 138ms/step - loss: 0.4481 - mse: 0.3838 
+Epoch 62: val_loss did not improve from 0.40512
+301/301 ━━━━━━━━━━━━━━━━━━━━ 43s 142ms/step - loss: 0.4481 - mse: 0.3838 - val_loss: 0.4090 - val_mse: 0.3450 - learning_rate: 7.8125e-06
+Epoch 63/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 137ms/step - loss: 0.4389 - mse: 0.3750 
+Epoch 63: val_loss did not improve from 0.40512
+301/301 ━━━━━━━━━━━━━━━━━━━━ 43s 142ms/step - loss: 0.4390 - mse: 0.3751 - val_loss: 0.4081 - val_mse: 0.3445 - learning_rate: 7.8125e-06
+Epoch 64/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 137ms/step - loss: 0.4420 - mse: 0.3785 
+Epoch 64: val_loss did not improve from 0.40512
+301/301 ━━━━━━━━━━━━━━━━━━━━ 43s 141ms/step - loss: 0.4420 - mse: 0.3785 - val_loss: 0.4089 - val_mse: 0.3456 - learning_rate: 7.8125e-06
+Epoch 65/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 136ms/step - loss: 0.4541 - mse: 0.3909 
+Epoch 65: val_loss improved from 0.40512 to 0.40449, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 43s 143ms/step - loss: 0.4541 - mse: 0.3909 - val_loss: 0.4045 - val_mse: 0.3415 - learning_rate: 7.8125e-06
+Epoch 66/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 137ms/step - loss: 0.4343 - mse: 0.3714 
+Epoch 66: val_loss did not improve from 0.40449
+301/301 ━━━━━━━━━━━━━━━━━━━━ 42s 141ms/step - loss: 0.4344 - mse: 0.3715 - val_loss: 0.4118 - val_mse: 0.3491 - learning_rate: 7.8125e-06
+Epoch 67/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 126ms/step - loss: 0.4390 - mse: 0.3763 
+Epoch 67: val_loss improved from 0.40449 to 0.40326, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 40s 132ms/step - loss: 0.4390 - mse: 0.3763 - val_loss: 0.4033 - val_mse: 0.3409 - learning_rate: 7.8125e-06
+Epoch 68/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 136ms/step - loss: 0.4368 - mse: 0.3744 
+Epoch 68: val_loss did not improve from 0.40326
+301/301 ━━━━━━━━━━━━━━━━━━━━ 42s 141ms/step - loss: 0.4368 - mse: 0.3744 - val_loss: 0.4082 - val_mse: 0.3461 - learning_rate: 7.8125e-06
+Epoch 69/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 139ms/step - loss: 0.4304 - mse: 0.3683 
+Epoch 69: val_loss did not improve from 0.40326
+301/301 ━━━━━━━━━━━━━━━━━━━━ 43s 143ms/step - loss: 0.4304 - mse: 0.3683 - val_loss: 0.4038 - val_mse: 0.3420 - learning_rate: 7.8125e-06
+Epoch 70/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 139ms/step - loss: 0.4323 - mse: 0.3705 
+Epoch 70: val_loss improved from 0.40326 to 0.39867, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 44s 145ms/step - loss: 0.4323 - mse: 0.3705 - val_loss: 0.3987 - val_mse: 0.3370 - learning_rate: 3.9063e-06
+Epoch 71/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 139ms/step - loss: 0.4246 - mse: 0.3630 
+Epoch 71: val_loss improved from 0.39867 to 0.39669, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 44s 145ms/step - loss: 0.4246 - mse: 0.3630 - val_loss: 0.3967 - val_mse: 0.3352 - learning_rate: 3.9063e-06
+Epoch 72/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 135ms/step - loss: 0.4017 - mse: 0.3402 
+Epoch 72: val_loss did not improve from 0.39669
+301/301 ━━━━━━━━━━━━━━━━━━━━ 42s 139ms/step - loss: 0.4017 - mse: 0.3403 - val_loss: 0.3977 - val_mse: 0.3364 - learning_rate: 3.9063e-06
+Epoch 73/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 139ms/step - loss: 0.4288 - mse: 0.3675 
+Epoch 73: val_loss improved from 0.39669 to 0.39542, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 44s 145ms/step - loss: 0.4288 - mse: 0.3675 - val_loss: 0.3954 - val_mse: 0.3343 - learning_rate: 3.9063e-06
+Epoch 74/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 140ms/step - loss: 0.4137 - mse: 0.3526 
+Epoch 74: val_loss did not improve from 0.39542
+301/301 ━━━━━━━━━━━━━━━━━━━━ 44s 145ms/step - loss: 0.4137 - mse: 0.3526 - val_loss: 0.3975 - val_mse: 0.3366 - learning_rate: 3.9063e-06
+Epoch 75/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 142ms/step - loss: 0.4243 - mse: 0.3633 
+Epoch 75: val_loss improved from 0.39542 to 0.39341, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 45s 148ms/step - loss: 0.4243 - mse: 0.3633 - val_loss: 0.3934 - val_mse: 0.3326 - learning_rate: 3.9063e-06
+Epoch 76/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 140ms/step - loss: 0.4146 - mse: 0.3538 
+Epoch 76: val_loss did not improve from 0.39341
+301/301 ━━━━━━━━━━━━━━━━━━━━ 44s 145ms/step - loss: 0.4146 - mse: 0.3538 - val_loss: 0.3964 - val_mse: 0.3357 - learning_rate: 3.9063e-06
+Epoch 77/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 138ms/step - loss: 0.4219 - mse: 0.3613 
+Epoch 77: val_loss improved from 0.39341 to 0.39261, saving model to MLP.keras
+301/301 ━━━━━━━━━━━━━━━━━━━━ 43s 144ms/step - loss: 0.4219 - mse: 0.3612 - val_loss: 0.3926 - val_mse: 0.3321 - learning_rate: 3.9063e-06
+Epoch 78/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 137ms/step - loss: 0.4128 - mse: 0.3523 
+Epoch 78: val_loss did not improve from 0.39261
+301/301 ━━━━━━━━━━━━━━━━━━━━ 43s 141ms/step - loss: 0.4128 - mse: 0.3523 - val_loss: 0.3971 - val_mse: 0.3367 - learning_rate: 3.9063e-06
+Epoch 79/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 137ms/step - loss: 0.4118 - mse: 0.3514 
+Epoch 79: val_loss did not improve from 0.39261
+301/301 ━━━━━━━━━━━━━━━━━━━━ 43s 142ms/step - loss: 0.4118 - mse: 0.3515 - val_loss: 0.3944 - val_mse: 0.3341 - learning_rate: 3.9063e-06
+Epoch 80/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 134ms/step - loss: 0.3932 - mse: 0.3329 
+Epoch 80: val_loss did not improve from 0.39261
+301/301 ━━━━━━━━━━━━━━━━━━━━ 41s 137ms/step - loss: 0.3932 - mse: 0.3330 - val_loss: 0.3934 - val_mse: 0.3332 - learning_rate: 1.9531e-06
+Epoch 81/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 115ms/step - loss: 0.4179 - mse: 0.3577 
+Epoch 81: val_loss did not improve from 0.39261
+301/301 ━━━━━━━━━━━━━━━━━━━━ 36s 118ms/step - loss: 0.4178 - mse: 0.3577 - val_loss: 0.3951 - val_mse: 0.3350 - learning_rate: 1.9531e-06
+Epoch 82/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 114ms/step - loss: 0.4144 - mse: 0.3543 
+Epoch 82: val_loss did not improve from 0.39261
+301/301 ━━━━━━━━━━━━━━━━━━━━ 35s 117ms/step - loss: 0.4144 - mse: 0.3543 - val_loss: 0.3928 - val_mse: 0.3328 - learning_rate: 1.9531e-06
+Epoch 83/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 121ms/step - loss: 0.4234 - mse: 0.3634 
+Epoch 83: val_loss did not improve from 0.39261
+301/301 ━━━━━━━━━━━━━━━━━━━━ 37s 124ms/step - loss: 0.4234 - mse: 0.3634 - val_loss: 0.3927 - val_mse: 0.3327 - learning_rate: 1.9531e-06
+Epoch 84/100
+301/301 ━━━━━━━━━━━━━━━━━━━━ 0s 124ms/step - loss: 0.4064 - mse: 0.3465 
+Epoch 84: val_loss did not improve from 0.39261
+301/301 ━━━━━━━━━━━━━━━━━━━━ 39s 128ms/step - loss: 0.4064 - mse: 0.3465 - val_loss: 0.3942 - val_mse: 0.3344 - learning_rate: 1.9531e-06
+Evaluating the model...
+188/188 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step   
+Test Mean Squared Error: 0.310718698907959
